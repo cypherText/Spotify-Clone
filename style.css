@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #333;
+}
+
+.nav {
+  font-family: "Varela Round", sans-serif;
+  background-color: black;
+
+  align-items: center;
+  padding: 0.2em 4em;
+
+  position: sticky;
+}
+.logo {
+  margin-right: 3em;
+}
+
+.logo img {
+  width: 4rem;
+}
+
+.nav ul {
+  font-size: 1.3rem;
+}
+
+.nav ul li {
+  margin: 0 0.6rem;
+}
+
+.lsn {
+  list-style: none;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
