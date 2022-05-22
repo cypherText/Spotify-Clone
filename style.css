@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Akshar&family=Varela+Round&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -11,35 +10,48 @@ body {
 }
 
 .nav {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   background-color: black;
 
+  justify-content: space-between;
   align-items: center;
   padding: 0.2em 5vw;
 
   position: sticky;
+  font-size: 1.2rem;
 }
 .logo {
   margin-right: 3em;
+  align-items: center;
 }
 
 .logo img {
-  width: 4rem;
-}
-
-.nav ul {
-  font-size: 1.3rem;
+  height: 3.6rem;
 }
 
 .nav ul li {
   margin: 0 0.6rem;
 }
 
-.lsn {
-  list-style: none;
-  text-decoration: none;
+
+.playlist {
+  min-height: 74vh;
 }
 
-.flex {
-  display: flex;
+.bottom {
+  position: sticky;
+  height: 6em;
+  background-color: black;
+
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#progress-bar {
+  width: 60vw;
+}
+
+.icons img {
+  width: 2em;
 }
