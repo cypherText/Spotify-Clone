@@ -10,16 +10,16 @@ body {
 }
 
 .nav {
+  padding: 0.2em 5vw;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1.2rem;
   font-family: "Ubuntu", sans-serif;
   background-color: black;
 
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.2em 5vw;
-
-  position: sticky;
-  font-size: 1.2rem;
 }
+
 .logo {
   margin-right: 3em;
   align-items: center;
@@ -34,29 +34,34 @@ body {
 }
 
 
-.playlist {
-  min-height: 74vh;
+.song-list-container {
+  padding: 2em;
+  margin:  2em auto;
+  min-height: 65vh;
+  width: 80%;
+  border-radius: 15px;
+
+  font-family: 'Varela Round', sans-serif;
+  background-color: rgb(31, 50, 67);
 }
 
-.bottom-container {
-  justify-content: center;
+.song-list {
 }
 
 .bottom {
   position: sticky;
+  bottom: 0;
   height: 6em;
-  width: 63vw;
-  border-radius: 2em 2em 0 0;
-  justify-content: center;
-  background-color: black;
-
   align-items: center;
-  color: white;
+  justify-content: center;
   flex-direction: column;
+  
+  background-color: black;
+  color: white;
 }
 
 #progress-bar {
-  width: 60vw;
+  width: 65vw;
 }
 
 .icons {
