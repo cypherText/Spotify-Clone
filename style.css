@@ -35,23 +35,24 @@ body {
 
 
 .song-list-container {
-  padding: 2em;
+  padding: 1em;
   margin:  2em auto;
-  min-height: 65vh;
-  width: 80%;
+  min-height: 70vh;
+  width: 75%;
   border-radius: 15px;
 
   font-family: 'Varela Round', sans-serif;
   background-color: rgb(31, 50, 67);
-}
-
-.song-list {
+ background-image: url('images.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
 }
 
 .bottom {
   position: sticky;
   bottom: 0;
-  height: 6em;
+  height: 5.5em;
   align-items: center;
   justify-content: center;
   flex-direction: column;
