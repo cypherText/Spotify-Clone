@@ -52,14 +52,23 @@ body {
 }
 
 .song-item {
-  background: rgba(230, 234, 239, 0.63);
-  backdrop-filter: blur(3px);
+  margin-top: 0.6em;
   align-items: center;
   justify-content: space-between;
-  border-radius: 2em;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   cursor: pointer;
-  margin-top: 0.5em;
+
+  font-size: 1.1rem;
+  background: rgba(230, 234, 239, 0.63);
+  border: 1px solid black;
+  border-radius: 2em;
+  
 }
+
+.song-item:hover {
+  background-color: rgba(68, 68, 68, 0.6);
+} 
 
 .song-item .song-cover {
   height: 2.2em;
@@ -77,9 +86,9 @@ body {
 .bottom {
   position: sticky;
   bottom: 0;
-  height: 5.3em;
   align-items: center;
   justify-content: center;
+  height: 5.3em;
   flex-direction: column;
 
   background-color: black;
